@@ -1,0 +1,73 @@
+/*---------------------cabeçalho------------------------------------------*/
+body{
+    background-color: #050C35;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    position:absolute;
+    top: 5%;
+    transform: translateX(-50%);
+    width: 200px; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-Maps{
+    position: absolute;
+    top: 25%;
+    transform: translateX(-50%);
+    width: 200px; 
+    height: auto;
+  
+  }
+
+.quadrado {
+    
+    width: 1200px; 
+    height: 250px; 
+    background-color:#050C35; 
+    border: solid 2px;
+    border-color: brown;
+    overflow: hidden; 
+    margin-top: 80px;
+  }
+
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  /*----------------------------------infromaçoes das armas---------------------------------------*/
+  
+  .weaponItem {
+    position: relative;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weaponInfo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.weaponInfo img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px; 
+}

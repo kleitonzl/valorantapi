@@ -1,0 +1,73 @@
+body {
+  background-color: #050C35;
+  font-family: Arial, sans-serif;
+}
+
+.imagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.img-Maps {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: auto;
+}
+
+.quadrado {
+  width: 90%;
+  max-width: 1200px;
+  height: 250px;
+  background-color: #050C35;
+  border: solid 2px;
+  border-color: brown;
+  overflow: hidden;
+  margin: 80px auto 20px;
+}
+
+.header {
+  justify-content: center;
+  display: flex;
+}
+
+.mapInfo img {
+  max-width: 60%; 
+  height: auto; 
+}
+
+
+.quadrado {
+  background-color: #050C35;
+  border: solid 2px;
+  border-color: brown;
+  overflow: hidden;
+  margin: 80px auto 20px;
+  
+}
+
+.proporcao-imagem {
+  width: auto;
+  height: auto;
+}
+
+.proporcao-texto {
+  width: 90%;
+  max-width: 1200px;
+  height: auto;
+}

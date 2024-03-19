@@ -1,0 +1,48 @@
+body{
+    background-color: #050C35;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    position:absolute;
+    top: 5%;
+    transform: translateX(-50%);
+    width: 200px; 
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-Maps{
+    position: absolute;
+    top: 25%;
+    transform: translateX(-50%);
+    width: 200px; 
+    height: auto;
+  
+  }
+
+.quadrado {
+    
+    width: 1200px; 
+    height: 250px; 
+    background-color:#050C35; 
+    border: solid 2px;
+    border-color: brown;
+    overflow: hidden; 
+    margin-top: 80px;
+  }
+
+  .header{
+    justify-content: center;
+    display: flex;
+  }
+  
+  
+  
