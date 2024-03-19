@@ -25,14 +25,14 @@ document.addEventListener('DOMContentLoaded', async function () {
             agentItem.appendChild(agentInfo);
             agentList.appendChild(agentItem);
 
-            let clickCount = 0; // Contador de cliques
+            let clickCount = 0; 
 
-            // Adicionar ouvinte de evento de clique à imagem do agente
+           
             const agentImage = agentInfo.querySelector(`#img-agents-${agent.uuid}`);
             agentImage.addEventListener('click', function () {
-                clickCount++; // Incrementa o contador de cliques
+                clickCount++;
 
-                // Alterna a visibilidade das informações do agente
+              
                 const description = agentInfo.querySelector('.description');
                 const characteristics = agentInfo.querySelector('.characteristics');
                 const funcao = agentInfo.querySelector('.funcao');
