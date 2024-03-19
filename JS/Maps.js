@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', async function () {
             const mapInfo = document.createElement('div');
             mapInfo.classList.add('mapInfo');
 
-            // Traduzindo a descrição tática
+           
             const tacticalDescription = await translateText(map.tacticalDescription, 'en', 'pt');
-            // Traduzindo a descrição narrativa
+           
             const narrativeDescription = await translateText(map.narrativeDescription, 'en', 'pt');
 
             mapInfo.innerHTML = `   
@@ -30,14 +30,14 @@ document.addEventListener('DOMContentLoaded', async function () {
             mapItem.appendChild(mapInfo);
             mapList.appendChild(mapItem);
 
-            let clickCount = 0; // Contador de cliques
+            let clickCount = 0;
 
-            // Adicionar ouvinte de evento de clique à imagem do mapa
+           
             const mapImage = mapInfo.querySelector('#img-mapas');
             mapImage.addEventListener('click', function () {
-                clickCount++; // Incrementa o contador de cliques
+                clickCount++; 
 
-                // Alterna a visibilidade das informações do mapa
+                
                 const description = mapInfo.querySelector('.description');
                 const narrative = mapInfo.querySelector('.narrative');
                 if (clickCount % 2 === 0) {
